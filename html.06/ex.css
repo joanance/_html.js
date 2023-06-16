@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(57, 57, 211);
+}
+
+h1 {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    inline-size: 20px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+button {
+    border:none;
+    margin-top: 10px;
+    background-color: brown;
+    color:#fff;
+    margin:10px;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.mensagemSucesso {
+    background-color: green;
+}
